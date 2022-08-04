@@ -7,6 +7,7 @@
 body {
   text-rendering: optimizeSpeed;
   font-weight: 1rem;
+
   font-family: "Inter", "Rufina", sans-serif;
 }
 
@@ -38,4 +39,42 @@ body {
   font-weight: bold;
   font-size: 40px;
   color: #fff;
+}
+
+.intro {
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+}
+
+.intro h2 {
+  font-family: "Rufina";
+  font-weight: bold;
+  font-size: 39px;
+  margin-bottom: 30px;
+}
+
+.intro p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.intro a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  text-decoration: none;
+}
+
+.intro a::after {
+  content: "";
+  clear: both;
+  width: 35px;
+  height: 12px;
+  display: block;
+  margin-left: 30px;
+  background: url("./assets/arrow.png");
 }
