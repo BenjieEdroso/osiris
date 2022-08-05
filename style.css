@@ -301,9 +301,11 @@ body {
 @media screen and (min-width: 1920px) {
   .navigation {
     padding: 63px 162px;
+    margin: 0 auto;
   }
   .main-content {
     padding: 0px 162px;
+    margin: 0 auto;
   }
 
   .intro h2 {
