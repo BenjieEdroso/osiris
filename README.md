@@ -16,6 +16,6 @@ On mobile, when I select the hamburger menu, I can see a navigation
 
 Made some style modifications to cater different device views in chrome dev tools and resizing of the actual browser.
 
-### Desktop view
+### Design
 
 ![design](./assets/design.png)
