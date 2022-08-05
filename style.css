@@ -141,7 +141,7 @@ body {
   height: 12px;
   display: block;
   margin-left: 30px;
-  background: url("./assets/arrow-long.png");
+  background: url("./assets/arrow-long.webp");
 }
 
 .designs {
@@ -294,7 +294,7 @@ body {
 
   .intro a::after {
     width: 65px;
-    background: url("./assets/arrow-long.png");
+    background: url("./assets/arrow-long.webp");
   }
 }
 
@@ -325,7 +325,7 @@ body {
 
   .intro a::after {
     width: 65px;
-    background: url("./assets/arrow-long.png");
+    background: url("./assets/arrow-long.webp");
   }
 
   .nav-links li {
