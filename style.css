@@ -137,11 +137,11 @@ body {
 .intro a::after {
   content: "";
   clear: both;
-  width: 35px;
+  width: 65px;
   height: 12px;
   display: block;
   margin-left: 30px;
-  background: url("./assets/arrow.png");
+  background: url("./assets/arrow-long.png");
 }
 
 .designs {
@@ -290,5 +290,82 @@ body {
   .intro p,
   .intro a {
     font-size: 22px;
+  }
+
+  .intro a::after {
+    width: 65px;
+    background: url("./assets/arrow-long.png");
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .navigation {
+    padding: 63px 162px;
+  }
+  .main-content {
+    padding: 0px 162px;
+  }
+
+  .intro h2 {
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  .intro p {
+    min-width: 585px;
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+
+  .intro a {
+    font-size: 32px;
+  }
+
+  .intro a::after {
+    width: 65px;
+    background: url("./assets/arrow-long.png");
+  }
+
+  .nav-links li {
+    margin-left: 104px;
+    height: fit-content;
+  }
+
+  .link {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .design-image {
+    width: 808px;
+    height: 628px;
+  }
+
+  .designer-card {
+    width: 631.96px;
+    height: 334.57px;
+    padding: 40.78px 60.3px;
+  }
+
+  .designer-image {
+    width: 97.83px;
+    height: 97.83px;
+    margin-right: 29.13px;
+  }
+  .designer,
+  .title {
+    font-size: 24px;
+  }
+
+  .designer-info {
+    margin-bottom: 45.17px;
+  }
+
+  .title {
+    margin-top: 14.57px;
+  }
+  .design-title {
+    min-width: 483px;
+    font-size: 48px;
   }
 }
